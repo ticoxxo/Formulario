@@ -11,6 +11,8 @@
 		C14B4D1A2C010C3200ABD5B9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14B4D192C010C3200ABD5B9 /* ContentView.swift */; };
 		C14B4D1C2C010C3300ABD5B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C14B4D1B2C010C3300ABD5B9 /* Assets.xcassets */; };
 		C14B4D1F2C010C3300ABD5B9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C14B4D1E2C010C3300ABD5B9 /* Preview Assets.xcassets */; };
+		C14B4D272C010C5700ABD5B9 /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14B4D262C010C5700ABD5B9 /* FormView.swift */; };
+		C14B4D292C04E09700ABD5B9 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14B4D282C04E09700ABD5B9 /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		C14B4D192C010C3200ABD5B9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C14B4D1B2C010C3300ABD5B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C14B4D1E2C010C3300ABD5B9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C14B4D262C010C5700ABD5B9 /* FormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
+		C14B4D282C04E09700ABD5B9 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,7 @@
 		C14B4D162C010C3200ABD5B9 /* Formulario */ = {
 			isa = PBXGroup;
 			children = (
+				C14B4D252C010C4300ABD5B9 /* FormView */,
 				C14B4D172C010C3200ABD5B9 /* FormularioApp.swift */,
 				C14B4D192C010C3200ABD5B9 /* ContentView.swift */,
 				C14B4D1B2C010C3300ABD5B9 /* Assets.xcassets */,
@@ -65,6 +70,15 @@
 				C14B4D1E2C010C3300ABD5B9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C14B4D252C010C4300ABD5B9 /* FormView */ = {
+			isa = PBXGroup;
+			children = (
+				C14B4D262C010C5700ABD5B9 /* FormView.swift */,
+				C14B4D282C04E09700ABD5B9 /* LoginView.swift */,
+			);
+			path = FormView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +151,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C14B4D272C010C5700ABD5B9 /* FormView.swift in Sources */,
 				C14B4D1A2C010C3200ABD5B9 /* ContentView.swift in Sources */,
+				C14B4D292C04E09700ABD5B9 /* LoginView.swift in Sources */,
 				C14B4D182C010C3200ABD5B9 /* FormularioApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
